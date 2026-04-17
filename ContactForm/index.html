@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container--flex-column">
+            <img class="header__logo" src="./images/Logotipo.svg" alt="">
+
+            <h1 class="header__title">Contact Form</h1>
+
+            <p class="header__text">Insira os dados do contato e clique em cadastrar!</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form action="" class="contact-form">
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="nome">Nome</label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--metade" name="nome" id="nome"
+                            placeholder="Nome" type="text">
+
+                        <input class="contact-form__input contact-form__input--metade" name="sobrenome" id="sobrenome"
+                            placeholder="Sobrenome" type="text">
+
+                    </div>
+                </div>
+
+
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="email">E-mail</label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--Inteiro" name="E-mail" id="email"
+                            placeholder="E-mail" type="text">
+
+                    </div>
+                </div>
+
+
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="Telefone">Telefone</label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--1Terco" name="prefixo" id="prefixo"
+                            placeholder="55" type="number">
+
+
+                        <input class="contact-form__input contact-form__input--1Terco" name="ddd" id="ddd"
+                            placeholder="ddd" type="number">
+
+
+                        <input class="contact-form__input contact-form__input--1Terco" name="numero" id="numero"
+                            placeholder="ex:9999-9999" type="number">
+
+                    </div>
+                </div>
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="Endereco">Endereço</label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--1quarto " name="cep" id="cep"
+                            placeholder="Cep: 9999-999" type="number" onblur="buscarEndereco(this.value)">
+
+
+                        <input class="contact-form__input contact-form__input--metade" name="ruaC" id="ruaC"
+                            placeholder="Rua lá de casa" type="text">
+
+
+                        <input class="contact-form__input contact-form__input--1quarto " name="numeroendereco"
+                            id="numeroendereco" placeholder="Ex:555" type="number">
+
+                    </div>
+                </div>
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="Endereco"></label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--1Terco" name="ape" id="ape"
+                            placeholder="Apartamento ou Bloco" type="text">
+
+
+                        <input class="contact-form__input contact-form__input--1Terco" name="bairro" id="bairro"
+                            placeholder="Bairro" type="text">
+
+
+                        <input class="contact-form__input contact-form__input--1Terco" name="cidade" id="cidade"
+                            placeholder="Cidade" type="text">
+
+                    </div>
+                </div>
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="Endereco"></label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--1Terco" name="estado" id="estado"
+                            placeholder="Estado" type="text">
+
+                    </div>
+                </div>
+
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="E-mail">Anotações</label>
+                    </div>
+
+                    <div class="contact-form__col-b">
+                        <textarea class="contact-form__input contact-form__input--textarea" name="Anotacoes"
+                            id="Anotacoes" placeholder="Suas Anotações aqui..."></textarea>
+
+                    </div>
+                </div>
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="E-mail"></label>
+                    </div>
+
+                    <div class="contact-form__col-button">
+                        <button class="contact-form__button" type="button" id="cadastrar" name="cadastrar"
+                            onclick="validarFormulario()">
+
+                            Cadastrar
+                        </button>
+
+                        <button class="contact-form__button" type="reset" id="limpar" name="limpar">
+                            Limpar
+                        </button>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>

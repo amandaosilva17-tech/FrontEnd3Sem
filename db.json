@@ -1,0 +1,158 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "nome": "nikki",
+      "sobrenome": "Shaolin",
+      "email": "nikki.Shaolin@example.com",
+      "id": "wUfls2QU9y4"
+    },
+    {
+      "nome": "marcos",
+      "sobrenome": "kpoper",
+      "email": "marcos.kpoper@example.com",
+      "id": "ifXHfrWTlMg"
+    },
+    {
+      "nome": "Velma",
+      "sobrenome": "scooby",
+      "email": "marcos.kpoper@example.com",
+      "id": "q8FJsjykBKc"
+    },
+    {
+      "nome": "sakura",
+      "sobrenome": "das cartas",
+      "email": "sakura.dascartas@example.com",
+      "id": "lAa3iz17EBE"
+    },
+    {
+      "nome": "pikachu",
+      "sobrenome": "choquinho",
+      "email": "pikachu.choquinho@example.com",
+      "id": "5504PqFSlNY"
+    },
+    {
+      "nome": "Daikki",
+      "sobrenome": "SILVA",
+      "id": "HJc1EbNxAx4"
+    },
+    {
+      "nome": "Daikki",
+      "sobrenome": "SILVA",
+      "id": "ij0fOgrZfyM"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "LwcnJGO1moQ"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "t54-mihG4rk"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "mgjnStET8ag"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "Y3kCEBEk_U0"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "TBNfMk7moL8"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "G9WG3IMS2-g"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "bi8BSvPSEIU"
+    },
+    {
+      "nome": "marcos",
+      "sobrenome": "kpoper",
+      "id": "7dMffKOBTnU"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "hP3G2WOLq2s"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "5XaaEKhILMI"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "pyUHcs3uFUo"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "J_gvFG--sD0"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "s5p4UL3RXSU"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "vj455TBsvbY"
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "id": "BQgevSwHy9U"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "fH7UXHg2zLQ"
+    },
+    {
+      "nome": "card pokemon",
+      "preço": "R$13,00",
+      "quantidade": "10 cartas",
+      "id": "sE8R7Qv80YA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

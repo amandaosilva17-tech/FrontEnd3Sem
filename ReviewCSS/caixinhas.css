@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+/*
+ deixar com largura de 920px e altura de 800px 
+*/
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+
+
+.mamae{
+   width: 920px;
+   height: 800px;
+   padding: 20px;
+   border: 2px dashed salmon;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+   margin: 0 auto;
+}
+
+.mamae__filinho{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    border: 2px dashed blue;
+}
+
+.filinho--azul{
+    background-color: blue;
+}
