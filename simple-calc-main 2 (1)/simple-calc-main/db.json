@@ -1,0 +1,54 @@
+{
+  "resultadoCalculado": [
+    {
+      "n1": 5,
+      "n2": 5,
+      "operacao": "soma",
+      "resultado": "10.00",
+      "id": "ueLSrgY3ux0"
+    },
+    {
+      "n1": 5,
+      "n2": 5,
+      "operacao": "soma",
+      "resultado": "10.00",
+      "id": "QMI3_47z54M"
+    },
+    {
+      "n1": 5,
+      "n2": 5,
+      "operacao": "multiplicacao",
+      "resultado": "25.00",
+      "id": "gu-Ov1wBfso"
+    },
+    {
+      "n1": 55,
+      "n2": 45,
+      "operacao": "soma",
+      "resultado": "100.00",
+      "id": "TlyveIVjT2c"
+    },
+    {
+      "n1": 88,
+      "n2": 11,
+      "operacao": "soma",
+      "resultado": "99.00",
+      "id": "e0OO_SK4LHk"
+    },
+    {
+      "n1": 77,
+      "n2": 22,
+      "operacao": "soma",
+      "resultado": "99.00",
+      "id": "NWfx8n3sEtA"
+    },
+    {
+      "n1": 1,
+      "n2": 6,
+      "operacao": "soma",
+      "resultado": "7.00",
+      "id": "nR4bMckh3dE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

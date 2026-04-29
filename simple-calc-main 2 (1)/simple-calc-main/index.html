@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body onload="">
+<body>
     <div class="page">
 
         <form action="" class="calc">
             <h1 class="calc__title">Simple Calc</h1>
             <input class="calc__field" autocomplete="off" type="number" id="n1" placeholder="Primeiro Número">
-            <input class="calc__field" autocomplete="off" type="number" id="n2" placeholder="Primeiro Número">
+            <input class="calc__field" autocomplete="off" type="number" id="n2" placeholder="Segundo Número">
 
             <select class="calc__field calc__select" id="operacao">
                 <option value="">Selecione</option>
@@ -25,18 +25,18 @@
                 <option value="divisao">Divisão</option>
             </select>
 
-            <button class="calc__button" onclick="calcular()">Calcular</button>
+            <button class="calc__button" type="button" onclick="calcular(event)">Calcular</button>
 
             <span class="calc__result" id="resultado">33.29</span>
         </form>
        
-        <section class="data">
+        <section class="data" id="cadastro">
             
         <article class="data__card-result">
-            <span><strong>Primeiro Número:</strong> 50</span>
-            <span><strong>Segundo Número:</strong> 50</span>
-            <span><strong>Operação:</strong> soma</span>
-            <span><strong>Resultado:</strong> 100</span>
+            <span id="primeiroResultado"><strong>Primeiro Número:</strong> 50</span>
+            <span id="segundoResultado"><strong>Segundo Número:</strong> 50</span>
+            <span id="operacaoResultado"><strong>Operação:</strong> soma</span>
+            <span id="resultadoResultado"><strong>Resultado:</strong> 100</span>
         </article>
     
     </section>
