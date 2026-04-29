@@ -1,0 +1,142 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Andy",
+      "idade": 17
+    }
+  ],
+  "Imc": [
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "zcjeCYvGEa4"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "hMEPy-WSGN0"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "kZocQAjMt1o"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "PO-vXtigStQ"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "wUyWba91olY"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "VbjDXGR0Hvo"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "7QrM_DXgmp8"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "FWScJCvKbaw"
+    },
+    {
+      "nome": "Nicole",
+      "altura": 1.64,
+      "peso": 77,
+      "IMC": 28.628792385484836,
+      "textoSituacao": "Sobrepeso",
+      "id": "JAp1h_NtThA"
+    },
+    {
+      "nome": "Jo",
+      "altura": 1.78,
+      "peso": 88,
+      "IMC": 27.77427092538821,
+      "textoSituacao": "Sobrepeso",
+      "id": "1YvVQ3GsHnQ"
+    },
+    {
+      "nome": "Nicole",
+      "altura": 1.64,
+      "peso": 77,
+      "IMC": 28.628792385484836,
+      "textoSituacao": "Sobrepeso",
+      "id": "LX5_DljtOs4"
+    },
+    {
+      "nome": "Justiceiro",
+      "altura": 1.65,
+      "peso": 65,
+      "IMC": 23.875114784205696,
+      "textoSituacao": "Saudável",
+      "id": "g4qRk2wVv7k"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "uftiksl-So8"
+    },
+    {
+      "nome": "Amanda ",
+      "altura": 1.67,
+      "peso": 60,
+      "IMC": 21.513858510523864,
+      "textoSituacao": "Saudável",
+      "id": "cXE4SG4drDE"
+    },
+    {
+      "nome": "Ana ",
+      "altura": 1.5,
+      "peso": 60,
+      "IMC": 26.666666666666668,
+      "textoSituacao": "Sobrepeso",
+      "id": "DJAw9gNCl88"
+    },
+    {
+      "nome": "Marcos",
+      "altura": 1.72,
+      "peso": 78,
+      "IMC": 26.365603028664147,
+      "textoSituacao": "Sobrepeso",
+      "id": "5MPzru8-bjM"
+    }
+  ],
+
+  "$schema": "./node_modules/json-server/schema.json"
+  "calculadora": []
+}
